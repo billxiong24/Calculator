@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="calculatorStyle.css">
+	</head>
+	<body>
+	<div id = "nums">
+			<span style = "font-size: 30px; margin-left: 5px"><input id = "answer"; value = " ="; type = "text" disabled></span><br>
+			<input id = "output"; type = "bar" ><br>
+			<input id = "shift"; type = "button"; value = "Shift"; class = "expression">
+			<input type = "button"; value = "sin"; class = "expression" onclick = "si()">
+			<input type = "button"; value = "("; class = "expression" onclick = "leftPara()">
+			<input class = "reset"; type = "button"; value = "+/-"; onclick = "flip()">
+			<input class = "reset"; type = "button"; value = "Ans"; onclick = "retrieve()">
+			<input class = "reset"; type = "button"; value = "CE"; onclick = "flush()">
+			<input class = "reset"; type = "button"; value = "C"; onclick = "res()"><br>
+			<input id = "rad"; type = "button"; value = "Rad"; class = "expression">
+			<input type = "button"; value = "cos"; class = "expression" onclick = "co()">
+			<input type = "button"; value = ")"; class = "expression" onclick = "rightPara()">
+			<input type = "button"; value = "7"; class = "number">
+			<input type = "button"; value = "8"; class = "number">
+			<input type = "button"; value = "9"; class = "number">
+			<input id = "add"; class = "ops"; type = "button" value = "+"><br>
+			<input type = "button"; value = &#960; class = "expression" onclick = "pie()">
+			<input type = "button"; value = "e"; class = "expression" onclick = "eu()">
+			<input type = "button"; value = "tan"; class = "expression" onclick = "ta()">
+			<input type = "button"; value = ","; class = "expression" onclick = "comma()">
+			<input type = "button"; value = "4"; class = "number">
+			<input type = "button"; value = "5"; class = "number">
+			<input type = "button"; value = "6"; class = "number">
+			<input id = "sub"; class = "ops"; type = "button" value = "-"><br>
+			<input type = "button"; value = "EXP"; class = "expression" onclick = "ex()">
+			<input type = "button"; value = "%"; class = "expression" onclick = "perc()">
+			<input type = "button"; value = "sqrt"; class = "expression"; onclick = "root()">
+			<input type = "button"; value = "x^y"; class = "expression" onclick = "exponent()">
+			<input type = "button"; value = "1"; class = "number">
+			<input type = "button"; value = "2"; class = "number">
+			<input type = "button"; value = "3"; class = "number">
+			<input id = "mult"; class = "ops"; type = "button" value = "*"><br> 
+			<input type = "button"; value = "x!"; class = "expression" onclick = "fact()">
+			<input type = "button"; value = "logX"; class = "expression" onclick = "baseLog()">
+			<input type = "button"; value = "log"; class = "expression" onclick = "lo()">
+			<input type = "button"; value = "ln"; class = "expression" onclick = "natLog()">
+			<input class = "number"; type = "button"; value = "0">
+			<input id = "decimal"; class = "number"; type = "button"; value = ".">
+			<input id = "equals"; class = "ops"; type = "button"; value = "=">
+			<input id = "div"; class = "ops"; type = "button" value = "/">	
+	</div>
+	</body>
+	<script src = "calculatorScript.js"></script>
+</html>

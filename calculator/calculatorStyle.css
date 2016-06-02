@@ -1,0 +1,95 @@
+button:focus { outline:0 !important; }
+	#answer{
+		margin: 0px;
+		margin-left: 2px;
+		width: 638px;
+		height: 15px;
+		background-color: white;
+		border: none;
+	}
+	#rad{
+		width: 152px;
+	}
+	#shift{
+		width: 152px;
+	}
+	.expression:hover{
+		color: black;
+		border: solid #999999 1px;
+	}
+	.expression{
+		color: #303030;
+		border: solid #B3B3B3 1px;
+		background-color: #cfcfcf;
+		margin-top: 50px;
+		height: 35px;
+		width: 70px;
+		margin: 4px;
+	}
+	.reset:hover{
+		border: solid #999999 1px;
+		color: black;
+	}
+	.reset{
+		background-color: #cfcfcf;
+		color: #303030;
+		border: solid #B3B3B3 1px;
+		margin-top: 50px;
+		height: 35px;
+		width: 70px;
+		margin: 4px;
+	}
+	#output{
+		border: solid #C7C7C7 1px;
+		margin: 4px;
+		width: 640px;
+		height: 40px;
+		text-align: right;
+		font-size: 25px;
+	}
+	#nums{
+		position: absolute;
+		left: 345px;
+		top: 150px;
+	}
+	#equals:hover{
+		border: solid white 1px;
+		font-weight: normal;
+	}
+	#equals{
+		position: relative;
+		background-color: #27408B;
+		color: white;
+		border: solid #B3B3B3 1px;
+	}
+	.ops:hover{
+		border: solid #999999 1px;
+		color: black;
+	}
+	.ops{
+		color: #303030;
+		border: solid #B3B3B3 1px;
+		background-color: #cfcfcf;
+		margin-top: 50px;
+		height: 35px;
+		width: 70px;
+		margin: 4px;
+	}
+	.number:hover{
+		border: solid #999999 1px;
+		color: black;
+	}
+	.number{
+			background-color: #F2F2F2;
+			border: solid #B3B3B3 1px;
+			margin-top: 50px;
+			height: 35px;
+			width: 70px;
+			margin: 4px;
+		}
+	div{		
+		position: absolute;
+		width: 800px;
+		height: 300px;
+	}
+}
